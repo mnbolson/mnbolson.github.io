@@ -28,7 +28,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
-    margin-bottom: 25px;
+    margin-bottom: 5px; /*spacing between paragraph text*/
+    margin-top: 10px;
 }
 
 .centered {
@@ -176,11 +177,13 @@ a:after {
 #headerwrap h1 {
 	font-size: 80px;
 	color: white;
+	text-align: center;
 }
 
 #headerwrap h3 {
 	font-size: 20px;
 	color: white;
+	text-align: center;
 }
 
 /* Intnro Wrap */
@@ -256,7 +259,7 @@ a:after {
 /* Global Values */
 
 .desc {
-	padding-top: 50px;
+	padding-top: 60px;
 }
 
 .desc p {
